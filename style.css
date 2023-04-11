@@ -1,0 +1,106 @@
+body {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url("img/bg.jpg");
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+
+
+}
+
+.left {
+
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 20px;
+}
+
+.left img {
+    width: 60px;
+}
+
+
+.right {
+
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 20px;
+}
+
+.btn {
+    padding: 4px 14px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.btn:hover {
+
+    background-color: aqua;
+}
+
+.mid {
+
+    width: 33%;
+    margin: 10px auto;
+    top: 10px;
+    display: block;
+}
+
+.nav {
+    display: inline-block;
+}
+
+.nav li {
+
+    display: inline-block;
+    font-size: 16px;
+
+}
+
+.nav li a {
+
+
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+
+}
+
+.nav li a:hover {
+
+
+    color: rgb(19, 227, 36);
+    text-decoration: underline;
+}
+
+.container {
+    margin: 70px;
+    padding: 50px;
+    width: 16%;
+    height: 186px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.btn {
+
+    margin: 8px;
+
+    border: 2px solid white;
+    border-radius: 2px;
+}
+
+
+.submit {
+    margin: auto;
+    padding: 2px;
+    width: 33%;
+}
